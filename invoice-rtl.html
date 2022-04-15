@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Test">
-    <title>Reservation Page</title>
+    <title>Invoice Page</title>
     <link rel="stylesheet" href="content/css/vendor/all.min.css">
-    <link rel="stylesheet" href="content/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="content/css/vendor/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="content/css/vendor/owl.carousel.min.css">
     <link rel="stylesheet" href="content/css/vendor/owl.theme.default.min.css">
     <link rel="stylesheet" href="content/css/vendor/animate.css">
-    <link rel="stylesheet" href="content/css/main-ltr.css">
+    <link rel="stylesheet" href="content/css/main-rtl.css">
     <link rel="icon" type="image/png" href="content/assets/images/favicon.ico"><link rel="canonical" href="#">
 <link rel="alternate" hreflang="en" href="https://www.example.com">
 <link rel="alternate" hreflang="ar" href="https://www.example.com/ar">
@@ -43,10 +43,10 @@
             <div class="col-lg-6">
               <div class="upper-nav__shochail d-flex justify-content-lg-end align-items-center"><span class="me-2">Mon - Fri / 9:00-21:00, Sat - Sun / 10:00-20:00</span>
                 <ul class="upper-nav__icons d-flex align-items-center">
-                  <li><a class="upper-nav__icon" href="#" aria-hidden="true"> <i class="fab fa-facebook-f" aria-hidden="true"> </i></a></li>
-                  <li><a class="upper-nav__icon" href="#" aria-hidden="true"> <i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a class="upper-nav__icon" href="#" aria-hidden="true"> <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                  <li><a class="upper-nav__icon" href="#" aria-hidden="true"> <i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
+                  <li> <a class="upper-nav__icon" href="#"> <i class="fab fa-facebook-f" aria-hidden="true"> </i></a></li>
+                  <li> <a class="upper-nav__icon" href="#"> <i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                  <li> <a class="upper-nav__icon" href="#"> <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                  <li> <a class="upper-nav__icon" href="#"> <i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -55,10 +55,10 @@
       </div>
       <!-- End Upper Nav-->
       <!-- Start  Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-light pb-2">
+      <nav class="navbar navbar-expand-lg navbar-light pb-2 w-100">
         <div class="container">
           <div class="navbar navbar__content w-100 navbar__content-bg">
-            <div class="user-nav mb-2 w-100"> 
+            <div class="user-nav py-1 w-100 mb-2">
               <div class="row align-itemx-center"> 
                 <div class="col-6"><a class="user__info" href="profile.html"><span class="user__icon me-2"> <i class="fa fa-user" aria-hidden="true"></i></span>User Name</a></div>
                 <div class="col-6">
@@ -74,19 +74,18 @@
                   </div>
                 </div>
               </div>
-            </div><a class="navbar-brand" href="index.html">Taste.<span>it </span></a>
+            </div><a class="navbar-brand" href="index-rtl.html">Taste.<span>it </span></a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar__btn-toggle text-uppercase">Menu</span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
-                <li class="nav-item active"> <a class="nav-link text-uppercase" href="index.html">Home </a></li>
-                <li class="nav-item"> <a class="nav-link text-uppercase" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link text-uppercase" href="chef.html">Chef</a></li>
-                <li class="nav-item"> <a class="nav-link text-uppercase" href="menu.html">Menu</a></li>
-                <li class="nav-item"> <a class="nav-link text-uppercase" href="reservation.html">Reservation</a></li>
-                <li class="nav-item"> <a class="nav-link text-uppercase" href="blog.html">Blog</a></li>
-                <li class="nav-item"> <a class="nav-link text-uppercase" href="contact.html">Contact</a></li>
-                <li class="nav-item"> <a class="nav-link text-uppercase" href="index-rtl.html">AR</a></li>
-                <li class="nav-item"></li>
+                <li class="nav-item active"><a class="nav-link text-uppercase" href="index-rtl.html">Home </a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="about-rtl.html">About</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="chef-rtl.html">Chef</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="menu-rtl.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="reservation-rtl.html">Reservation</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="blog-rtl.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="contact-rtl.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="index.html">EN</a></li>
               </ul>
             </div>
           </div>
@@ -97,91 +96,75 @@
     <!-- Start Main Header Page -->
     <header class="haeder-page">
       <div class="d-flex flex-column justify-content-end align-items-center h-100 pb-5">
-        <h1 class="haeder-page__title">Book A Table Now </h1>
+        <h1 class="haeder-page__title">Invoice</h1>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a class="text-uppercas" href="index.html">Home</a></li>
-            <li class="breadcrumb-item active text-uppercas" aria-current="page">Reservation</li>
+            <li class="breadcrumb-item active text-uppercas" aria-current="page">Invoice</li>
           </ol>
         </nav>
       </div>
     </header>
     <!-- End Main Header Page -->
-    <section class="section-about pt-0">
+    <!-- Main layout-->
+    <section class="checkout-page">
       <div class="container">
-        <div class="main__form p-lg-5 py-5 px-3 main-bg h-100 d-flex flex-column justify-content-center"> 
-          <h4 class="main__form-title mb-4 text-uppercase">BOOK YOUR TABLE</h4>
-          <form class="cmxform" id="main-form" method="get" action="">
-            <div class="row"> 
-              <div class="col-lg-4 col-md-6">
-                <div class="form-group wow animate__fadeInDown" data-wow-duration=".8s">
-                  <input class="border w-100 mb-3 px-3 py-2 form-control" id="cname" type="text" placeholder="Name" name="name" minlength="2" required>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="form-group wow animate__fadeInDown" data-wow-duration="1.2s">
-                  <input class="border w-100 mb-3 px-3 py-2 form-control" id="cemail" type="email" placeholder="Email" name="email" required>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="form-group wow animate__fadeInDown" data-wow-duration="1.5s">
-                  <input class="border w-100 mb-3 px-3 py-2 form-control" id="cphone" type="tel" placeholder="Phone" name="phone" required>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="form-group wow animate__fadeInDown" data-wow-duration="1.8s">
-                  <label for="cdate"> <span class="main__from-icon"><i class="fa fa-calendar" aria-hidden="true"></i></span></label>
-                  <input class="border w-100 mb-3 px-3 py-2 form-control" type="date" id="cdate" name="date" required>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="form-group wow animate__fadeInDown" data-wow-duration="2s">
-                  <label for=""> <span class="main__from-icon"><i class="fa fa-clock" aria-hidden="true"></i></span></label>
-                  <input class="border w-100 mb-3 px-3 py-2 form-control" type="time" value="13:00" name="time">
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="form-group wow animate__fadeInDown" data-wow-duration="2.3s">
-                  <label for="cguest"><span class="main__from-icon"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></label>
-                  <select class="form-select w-100 mb-3 px-3 py-2 wow animate__fadeInDown" id="cguest" name="select" required data-wow-duration="2.5s">
-                    <option selected disabled>Guest</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col mx-auto text-center">
-                <button class="btn main__form-btn py-3 px-lg-5 wow animate__fadeInDown submit" type="submit" data-wow-duration="2.5s">Book Your Table Now</button>
-              </div>
-            </div>
-          </form>
-        </div>
-        <!-- End Form About-->
-      </div>
-    </section>
-    <!-- Start Ingredients-->
-    <section class="section-ingredients"> 
-      <div class="container"> 
-        <div class="row"> 
-          <div class="col-lg-6">
-            <div class="row"> 
-              <div class="col-6"><img class="ingredients__img" src="content/assets/images/chef/chef-1.webp" alt="img-chef"></div>
-              <div class="col-6"><img class="ingredients__img" src="content/assets/images/header/wallpaper3.webp" alt="img-chef"></div>
-            </div>
+        <div class="p-4 rounded-3 bg-white shadow-lg px-md-5 mx-md-5">
+          <div class="d-flex justify-content-between align-items-start pb-3">
+            <div class="info">
+              <h2 class="mb-2">Invoice</h2><span class="text-black-50">12/12/2019</span>
+            </div><span class="fw-bold"> #123456</span>
           </div>
-          <div class="col-lg-6 p-lg-5 py-5 px-3">
-            <div class="main-title mt-5 mb-4">
-              <h3 class="title__text" data-title="This is our secrets">Perfect Ingredients</h3>
-            </div>
-            <p class="ingredients__desc mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p><a class="btn main-btn" href="#">Learn more </a>
+          <div class="d-flex justify-content-between align-items-center">
+            <table class="table table-bordered table-striped table-responsive-sm text-center align-middle">
+              <thead class="thead-light">
+                <tr>
+                  <th>Img</th>
+                  <th>Name</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> <img class="rounded-3" src="content/assets/images/menu/lunch-2.webp" alt="Lunch" width="80" height="80"></td>
+                  <td>Lunch</td>
+                  <td>1</td>
+                  <td>30 E.L</td>
+                </tr>
+                <tr>
+                  <td> <img class="rounded-3" src="content/assets/images/menu/lunch-2.webp" alt="Lunch" width="80" height="80"></td>
+                  <td>Lunch</td>
+                  <td>1</td>
+                  <td>30 E.L</td>
+                </tr>
+                <tr>
+                  <td> <img class="rounded-3" src="content/assets/images/menu/lunch-2.webp" alt="Lunch" width="80" height="80"></td>
+                  <td>Lunch</td>
+                  <td>1</td>
+                  <td>30 E.L</td>
+                </tr>
+                <tr>
+                  <td> <img class="rounded-3" src="content/assets/images/menu/lunch-2.webp" alt="Lunch" width="80" height="80"></td>
+                  <td>Lunch</td>
+                  <td>1</td>
+                  <td>30 E.L</td>
+                </tr>
+                <tr>
+                  <td> <img class="rounded-3" src="content/assets/images/menu/lunch-2.webp" alt="Lunch" width="80" height="80"></td>
+                  <td>Lunch</td>
+                  <td>1</td>
+                  <td>30 E.L</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="d-flex justify-content-between align-items-center pb-3 border-top pt-3">
+            <h2>Total</h2><span class="fw-bold"> 500 E.L</span>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Ingredients-->
     <div class="btn-top d-none"><a href="#"> <i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
     <!-- Start Footer-->
     <footer class="main-footer py-5"> 
@@ -192,9 +175,9 @@
               <h3 class="footer__title text-uppercase mb-4">TASTE.IT</h3>
               <p class="footer__desc mb-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
               <ul class="footer__sochial d-flex mt-3">
-                <li> <a href="#" tabindex="-1" aria-label="icon"> <i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                <li> <a href="#" tabindex="-1" aria-label="icon"> <i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                <li> <a href="#" tabindex="-1" aria-label="icon"> <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li> <a href="#"> <i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li> <a href="#"> <i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li> <a href="#"> <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
               </ul>
             </div>
           </div>
@@ -214,14 +197,17 @@
           </div>
           <div class="col-lg-3 col-md-6 mb-3">
             <div class="footer__content"> 
-              <h3 class="footer__title text-uppercase mb-4">  Page</h3>
-              <ul class="footer__list-page">
-                <li> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i><a href="terms-conditions.html" tabindex="-1" aria-label="terms-conditions">Terms & Conditions</a></li>
-                <li> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i><a href="terms-conditions.html" tabindex="-1" aria-label="terms-conditions">Terms & Conditions</a></li>
-                <li> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i><a href="terms-conditions.html" tabindex="-1" aria-label="terms-conditions">Terms & Conditions</a></li>
-                <li> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i><a href="terms-conditions.html" tabindex="-1" aria-label="terms-conditions">Terms & Conditions</a></li>
-                <li> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i><a href="terms-conditions.html" tabindex="-1" aria-label="terms-conditions">Terms & Conditions</a></li>
-              </ul>
+              <h3 class="footer__title text-uppercase mb-4">  INSTAGRAM</h3>
+              <div class="footer__list-imgs">
+                <div class="row g-0">
+                  <div class="col-4"><a class="bg-one d-block" href="#"></a></div>
+                  <div class="col-4"><a class="bg-tow d-block" href="#"></a></div>
+                  <div class="col-4"><a class="bg-three d-block" href="#"></a></div>
+                  <div class="col-4"><a class="bg-four d-block" href="#"></a></div>
+                  <div class="col-4"><a class="bg-five d-block" href="#"></a></div>
+                  <div class="col-4"><a class="bg-six d-block" href="#"></a></div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 mb-3">
@@ -251,6 +237,5 @@
     <script src="content/js/vendor/wow.min.js"></script>
     <script src="content/js/vendor/all.min.js"> </script>
     <script src="content/js/main.js"> </script>
-    <script src="content/js/main-form.js"> </script>
   </body>
 </html>
